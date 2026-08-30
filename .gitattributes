@@ -1,0 +1,9 @@
+# See https://github.com/github/linguist
+*.map linguist-generated
+*.html linguist-vendored
+
+src/*.ts linguist-detectable
+
+src/**/*.ts linguist-detectable
+*.min.js linguist-generated
+docs/*.html linguist-vendored
